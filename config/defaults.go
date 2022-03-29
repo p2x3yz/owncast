@@ -58,7 +58,7 @@ func GetDefaults() Defaults {
 		WebServerPort:  8080,
 		WebServerIP:    "0.0.0.0",
 		RTMPServerPort: 1935,
-		StreamKey:      "abc123",
+		StreamKey:      "abc1234",
 
 		ChatEstablishedUserModeTimeDuration: time.Minute * 15,
 
@@ -72,6 +72,6 @@ func GetDefaults() Defaults {
 		},
 
 		FederationUsername:      "streamer",
-		FederationGoLiveMessage: "I've gone live!",
+		FederationGoLiveMessage: "Geosyncing Orbital Bombardment",
 	}
 }

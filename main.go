@@ -5,15 +5,15 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/owncast/owncast/logging"
+	"github.com/mikepadge/owncast/logging"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/metrics"
-	"github.com/owncast/owncast/router"
-	"github.com/owncast/owncast/utils"
+	"github.com/mikepadge/owncast/config"
+	"github.com/mikepadge/owncast/core"
+	"github.com/mikepadge/owncast/core/data"
+	"github.com/mikepadge/owncast/metrics"
+	"github.com/mikepadge/owncast/router"
+	"github.com/mikepadge/owncast/utils"
 )
 
 var (
