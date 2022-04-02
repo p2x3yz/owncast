@@ -975,6 +975,8 @@ export default class App extends Component {
             <video
               class="video-js vjs-big-play-centered display-block w-full h-full"
               id="video"
+              autoplay="autoplay"
+              muted="muted"
               preload="auto"
               controls
               playsinline

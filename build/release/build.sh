@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Human readable names of binary distributions
 DISTRO=(macOS-64bit linux-64bit linux-32bit linux-arm7 linux-arm64)
