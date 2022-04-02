@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/owncast/owncast/controllers"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/controllers"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/models"
 )
 
 type deleteWebhookRequest struct {

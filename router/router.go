@@ -7,16 +7,16 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/owncast/owncast/activitypub"
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/controllers"
-	"github.com/owncast/owncast/controllers/admin"
-	"github.com/owncast/owncast/core/chat"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/router/middleware"
-	"github.com/owncast/owncast/utils"
-	"github.com/owncast/owncast/yp"
+	"github.com/p2x3yz/owncast/activitypub"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/controllers"
+	"github.com/p2x3yz/owncast/controllers/admin"
+	"github.com/p2x3yz/owncast/core/chat"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/router/middleware"
+	"github.com/p2x3yz/owncast/utils"
+	"github.com/p2x3yz/owncast/yp"
 )
 
 // Start starts the router for the http, ws, and rtmp.

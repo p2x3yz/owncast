@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/owncast/owncast" alt="Owncast">
+  <a href="https://github.com/p2x3yz/owncast" alt="Owncast">
     <img src="https://owncast.online/images/logo.png" alt="Logo" width="200">
   </a>
 </p>
@@ -18,7 +18,7 @@
     ·
     <a href="https://owncast.online/faq/">FAQ</a>
     ·
-    <a href="https://github.com/owncast/owncast/issues">Report Bug</a>
+    <a href="https://github.com/p2x3yz/owncast/issues">Report Bug</a>
   </p>
 </p>
 
@@ -49,7 +49,7 @@ Owncast is an open source, self-hosted, decentralized, single user live video st
 <div>
     <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/owncast/owncast/total?style=for-the-badge">
     <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/gabekangas/owncast?style=for-the-badge">
-    <a href="https://github.com/owncast/owncast/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
+    <a href="https://github.com/p2x3yz/owncast/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">
       <img alt="GitHub issues by-label" src="https://img.shields.io/github/issues-raw/owncast/owncast/good%20first%20issue?style=for-the-badge">
     </a>
     <a href="https://opencollective.com/owncast">
@@ -76,7 +76,7 @@ OBS, Streamlabs, Restream and many others have been used with Owncast. [Read mor
 
 1. Ensure you have the gcc compiler installed.
 1. Install the [Go toolchain](https://golang.org/dl/) (1.16 or above).
-1. Clone the repo. `git clone https://github.com/owncast/owncast`
+1. Clone the repo. `git clone https://github.com/p2x3yz/owncast`
 1. `go run main.go` will run from source.
 1. Visit `http://yourserver:8080` to access the web interface or `http://yourserver:8080/admin` to access the admin.
 1. Point your [broadcasting software](https://owncast.online/docs/broadcasting/) at your new server and start streaming.
@@ -85,7 +85,7 @@ There is also a supplied `Dockerfile` so you can spin it up from source with lit
 
 ### Bundling in latest admin from source
 
-The admin ui is built at: https://github.com/owncast/owncast-admin it is bundled into the final binary using pkger.
+The admin ui is built at: https://github.com/p2x3yz/owncast-admin it is bundled into the final binary using pkger.
 
 To bundle in the latest admin UI:
 
@@ -104,7 +104,7 @@ There is a larger, more detailed, and more up-to-date [guide for helping contrib
 
 ### Architecture
 
-Owncast consists of two repositories with two standalone projects. [The repo you're looking at now](https://github.com/owncast/owncast) is the core repository with the backend and frontend.  [owncast/owncast-admin](https://github.com/owncast/owncast-admin) is an additional web project that is built separately and used for configuration and management of an Owncast server.
+Owncast consists of two repositories with two standalone projects. [The repo you're looking at now](https://github.com/p2x3yz/owncast) is the core repository with the backend and frontend.  [owncast/owncast-admin](https://github.com/p2x3yz/owncast-admin) is an additional web project that is built separately and used for configuration and management of an Owncast server.
 
 ### Suggestions when working with the Owncast codebase
 
@@ -127,4 +127,4 @@ Project chat: [Join us on Rocket.Chat](https://owncast.rocket.chat/home) if you 
 
 Gabe Kangas - [@gabek@mastodon.social](https://mastodon.social/@gabek) - email [gabek@real-ity.com](mailto:gabek@real-ity.com)
 
-Project Link: [https://github.com/owncast/owncast](https://github.com/owncast/owncast)
+Project Link: [https://github.com/p2x3yz/owncast](https://github.com/p2x3yz/owncast)

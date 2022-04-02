@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/models"
 )
 
 func TestFFmpegOmxCommand(t *testing.T) {

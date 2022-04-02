@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/persistence"
-	"github.com/owncast/owncast/core/chat/events"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/core/chat/events"
 	"github.com/pkg/errors"
 )
 

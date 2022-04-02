@@ -125,7 +125,7 @@ components:
                 example: github
               url:
                 type: string
-                example: http://github.com/owncast/owncast
+                example: http://github.com/p2x3yz/owncast
         extraPageContent:
           type: string
           description: Additional HTML content to render in the body of the web interface.
@@ -1341,7 +1341,7 @@ paths:
             example:
               value:
                 - platform: github
-                  url: https://github.com/owncast/owncast
+                  url: https://github.com/p2x3yz/owncast
                 - platform: mastodon
                   url: https://mastodon.social/@gabek
   /api/admin/config/customstyles:

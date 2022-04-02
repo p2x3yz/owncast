@@ -1,14 +1,14 @@
 package activitypub
 
 import (
-	"github.com/owncast/owncast/activitypub/crypto"
-	"github.com/owncast/owncast/activitypub/inbox"
-	"github.com/owncast/owncast/activitypub/outbox"
-	"github.com/owncast/owncast/activitypub/persistence"
-	"github.com/owncast/owncast/activitypub/workerpool"
+	"github.com/p2x3yz/owncast/activitypub/crypto"
+	"github.com/p2x3yz/owncast/activitypub/inbox"
+	"github.com/p2x3yz/owncast/activitypub/outbox"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/activitypub/workerpool"
 
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/models"
 	log "github.com/sirupsen/logrus"
 )
 

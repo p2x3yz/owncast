@@ -11,13 +11,13 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core/chat/events"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/core/webhooks"
-	"github.com/owncast/owncast/geoip"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/core/chat/events"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/core/webhooks"
+	"github.com/p2x3yz/owncast/geoip"
+	"github.com/p2x3yz/owncast/utils"
 )
 
 var _server *Server

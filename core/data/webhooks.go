@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/models"
 	log "github.com/sirupsen/logrus"
 )
 

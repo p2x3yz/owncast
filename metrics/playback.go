@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/owncast/owncast/core"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/core"
+	"github.com/p2x3yz/owncast/utils"
 )
 
 // Playback error counts reported since the last time we collected metrics.

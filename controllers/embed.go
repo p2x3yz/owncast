@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/owncast/owncast/router/middleware"
+	"github.com/p2x3yz/owncast/router/middleware"
 )
 
 // GetChatEmbedreadwrite gets the embed for readwrite chat.

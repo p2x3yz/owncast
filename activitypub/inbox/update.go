@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/persistence"
-	"github.com/owncast/owncast/activitypub/resolvers"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/activitypub/resolvers"
 	log "github.com/sirupsen/logrus"
 )
 

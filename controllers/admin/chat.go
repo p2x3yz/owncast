@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/owncast/owncast/controllers"
-	"github.com/owncast/owncast/core/chat"
-	"github.com/owncast/owncast/core/chat/events"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/controllers"
+	"github.com/p2x3yz/owncast/core/chat"
+	"github.com/p2x3yz/owncast/core/chat/events"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/utils"
 	log "github.com/sirupsen/logrus"
 )
 

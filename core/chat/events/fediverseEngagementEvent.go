@@ -1,6 +1,6 @@
 package events
 
-import "github.com/owncast/owncast/core/data"
+import "github.com/p2x3yz/owncast/core/data"
 
 // FediverseEngagementEvent is a message displayed in chat on representing an action on the Fediverse.
 type FediverseEngagementEvent struct {

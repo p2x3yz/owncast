@@ -10,14 +10,14 @@ import (
 
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/apmodels"
-	"github.com/owncast/owncast/activitypub/persistence"
-	"github.com/owncast/owncast/activitypub/requests"
-	"github.com/owncast/owncast/activitypub/workerpool"
+	"github.com/p2x3yz/owncast/activitypub/apmodels"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/activitypub/requests"
+	"github.com/p2x3yz/owncast/activitypub/workerpool"
 
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/utils"
 	log "github.com/sirupsen/logrus"
 	"github.com/teris-io/shortid"
 )

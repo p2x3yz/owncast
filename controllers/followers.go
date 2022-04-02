@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/owncast/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
 )
 
 // GetFollowers will handle an API request to fetch the list of followers (non-activitypub response).

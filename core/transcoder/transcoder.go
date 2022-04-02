@@ -11,11 +11,11 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/teris-io/shortid"
 
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/logging"
-	"github.com/owncast/owncast/models"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/logging"
+	"github.com/p2x3yz/owncast/models"
+	"github.com/p2x3yz/owncast/utils"
 )
 
 var _commandExec *exec.Cmd

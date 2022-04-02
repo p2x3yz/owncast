@@ -1,6 +1,6 @@
 package events
 
-import "github.com/owncast/owncast/core/data"
+import "github.com/p2x3yz/owncast/core/data"
 
 // SystemMessageEvent is a message displayed in chat on behalf of the server.
 type SystemMessageEvent struct {

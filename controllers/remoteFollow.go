@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/owncast/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/data"
 )
 
 // RemoteFollow handles a request to begin the remote follow redirect flow.

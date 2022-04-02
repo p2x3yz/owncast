@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/owncast/owncast/core/rtmp"
+	"github.com/p2x3yz/owncast/core/rtmp"
 )
 
 // DisconnectInboundConnection will force-disconnect an inbound stream.

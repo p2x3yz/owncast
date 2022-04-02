@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/owncast/owncast/core"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/models"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/core"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/models"
+	"github.com/p2x3yz/owncast/utils"
 )
 
 const (

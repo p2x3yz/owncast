@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/owncast/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/data"
 )
 
 type variantsSort struct {

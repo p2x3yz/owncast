@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 
 	"github.com/grafov/m3u8"
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/static"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/static"
+	"github.com/p2x3yz/owncast/utils"
 	log "github.com/sirupsen/logrus"
 )
 

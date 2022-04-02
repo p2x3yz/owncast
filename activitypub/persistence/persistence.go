@@ -9,11 +9,11 @@ import (
 
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/apmodels"
-	"github.com/owncast/owncast/activitypub/resolvers"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/db"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/activitypub/apmodels"
+	"github.com/p2x3yz/owncast/activitypub/resolvers"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/db"
+	"github.com/p2x3yz/owncast/models"
 	"github.com/pkg/errors"
 
 	log "github.com/sirupsen/logrus"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/owncast/owncast/db"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/db"
+	"github.com/p2x3yz/owncast/models"
 	log "github.com/sirupsen/logrus"
 )
 

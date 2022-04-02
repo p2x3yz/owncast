@@ -1,7 +1,7 @@
 package inbox
 
 import (
-	"github.com/owncast/owncast/activitypub/apmodels"
+	"github.com/p2x3yz/owncast/activitypub/apmodels"
 	log "github.com/sirupsen/logrus"
 )
 

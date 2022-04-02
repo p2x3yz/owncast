@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/owncast/owncast/activitypub/persistence"
-	"github.com/owncast/owncast/activitypub/requests"
-	"github.com/owncast/owncast/controllers"
-	"github.com/owncast/owncast/core/data"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/activitypub/requests"
+	"github.com/p2x3yz/owncast/controllers"
+	"github.com/p2x3yz/owncast/core/data"
 )
 
 // ApproveFollower will approve a federated follow request.

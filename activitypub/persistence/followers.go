@@ -3,9 +3,9 @@ package persistence
 import (
 	"context"
 
-	"github.com/owncast/owncast/db"
-	"github.com/owncast/owncast/models"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/db"
+	"github.com/p2x3yz/owncast/models"
+	"github.com/p2x3yz/owncast/utils"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

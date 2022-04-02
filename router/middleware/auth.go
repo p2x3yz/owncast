@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/utils"
 	log "github.com/sirupsen/logrus"
 )
 

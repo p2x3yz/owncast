@@ -3,10 +3,10 @@ package admin
 import (
 	"net/http"
 
-	"github.com/owncast/owncast/controllers"
-	"github.com/owncast/owncast/core"
+	"github.com/p2x3yz/owncast/controllers"
+	"github.com/p2x3yz/owncast/core"
 
-	"github.com/owncast/owncast/core/rtmp"
+	"github.com/p2x3yz/owncast/core/rtmp"
 )
 
 // DisconnectInboundConnection will force-disconnect an inbound stream.

@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/apmodels"
-	"github.com/owncast/owncast/activitypub/workerpool"
+	"github.com/p2x3yz/owncast/activitypub/apmodels"
+	"github.com/p2x3yz/owncast/activitypub/workerpool"
 
 	"github.com/teris-io/shortid"
 )

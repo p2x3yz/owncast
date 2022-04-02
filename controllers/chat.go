@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/owncast/owncast/core/chat"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/router/middleware"
+	"github.com/p2x3yz/owncast/core/chat"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/router/middleware"
 	log "github.com/sirupsen/logrus"
 )
 

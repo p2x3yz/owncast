@@ -9,10 +9,10 @@ import (
 	"golang.org/x/time/rate"
 
 	"github.com/gorilla/websocket"
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core/chat/events"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/geoip"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/core/chat/events"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/geoip"
 )
 
 // Client represents a single chat client.

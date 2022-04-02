@@ -1,4 +1,4 @@
-module github.com/owncast/owncast
+module github.com/p2x3yz/owncast
 
 go 1.17
 
@@ -72,4 +72,4 @@ require (
 	github.com/oschwald/maxminddb-golang v1.8.0 // indirect
 )
 
-replace github.com/go-fed/activity => github.com/owncast/activity v1.0.1-0.20211229051252-7821289d4026
+replace github.com/go-fed/activity => github.com/p2x3yz/activity v1.0.1-0.20211229051252-7821289d4026

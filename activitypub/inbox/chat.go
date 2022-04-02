@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/resolvers"
-	"github.com/owncast/owncast/core/chat"
-	"github.com/owncast/owncast/core/chat/events"
-	"github.com/owncast/owncast/core/data"
+	"github.com/p2x3yz/owncast/activitypub/resolvers"
+	"github.com/p2x3yz/owncast/core/chat"
+	"github.com/p2x3yz/owncast/core/chat/events"
+	"github.com/p2x3yz/owncast/core/data"
 )
 
 func handleEngagementActivity(eventType events.EventType, isLiveNotification bool, actorReference vocab.ActivityStreamsActorProperty, action string) error {

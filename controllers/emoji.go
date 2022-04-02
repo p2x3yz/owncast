@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/models"
 	log "github.com/sirupsen/logrus"
 )
 

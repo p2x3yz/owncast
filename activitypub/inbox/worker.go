@@ -11,10 +11,10 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/go-fed/httpsig"
-	"github.com/owncast/owncast/activitypub/apmodels"
-	"github.com/owncast/owncast/activitypub/persistence"
-	"github.com/owncast/owncast/activitypub/resolvers"
-	"github.com/owncast/owncast/core/data"
+	"github.com/p2x3yz/owncast/activitypub/apmodels"
+	"github.com/p2x3yz/owncast/activitypub/persistence"
+	"github.com/p2x3yz/owncast/activitypub/resolvers"
+	"github.com/p2x3yz/owncast/core/data"
 
 	log "github.com/sirupsen/logrus"
 )

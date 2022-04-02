@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/nareix/joy5/format/flv/flvio"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/models"
 	log "github.com/sirupsen/logrus"
 )
 

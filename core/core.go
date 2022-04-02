@@ -7,17 +7,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core/chat"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/core/rtmp"
-	"github.com/owncast/owncast/core/transcoder"
-	"github.com/owncast/owncast/core/user"
-	"github.com/owncast/owncast/core/webhooks"
-	"github.com/owncast/owncast/models"
-	"github.com/owncast/owncast/notifications"
-	"github.com/owncast/owncast/utils"
-	"github.com/owncast/owncast/yp"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/core/chat"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/core/rtmp"
+	"github.com/p2x3yz/owncast/core/transcoder"
+	"github.com/p2x3yz/owncast/core/user"
+	"github.com/p2x3yz/owncast/core/webhooks"
+	"github.com/p2x3yz/owncast/models"
+	"github.com/p2x3yz/owncast/notifications"
+	"github.com/p2x3yz/owncast/utils"
+	"github.com/p2x3yz/owncast/yp"
 )
 
 var (

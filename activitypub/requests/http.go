@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/owncast/owncast/activitypub/crypto"
+	"github.com/p2x3yz/owncast/activitypub/crypto"
 
-	"github.com/owncast/owncast/config"
+	"github.com/p2x3yz/owncast/config"
 
 	log "github.com/sirupsen/logrus"
 )

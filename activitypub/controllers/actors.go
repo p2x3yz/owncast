@@ -6,10 +6,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/owncast/owncast/activitypub/apmodels"
-	"github.com/owncast/owncast/activitypub/crypto"
-	"github.com/owncast/owncast/activitypub/requests"
-	"github.com/owncast/owncast/core/data"
+	"github.com/p2x3yz/owncast/activitypub/apmodels"
+	"github.com/p2x3yz/owncast/activitypub/crypto"
+	"github.com/p2x3yz/owncast/activitypub/requests"
+	"github.com/p2x3yz/owncast/core/data"
 )
 
 // ActorHandler handles requests for a single actor.

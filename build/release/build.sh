@@ -24,7 +24,7 @@ BUILD_TEMP_DIRECTORY="$(mktemp -d)"
 cd $BUILD_TEMP_DIRECTORY
 
 echo "Cloning owncast into $BUILD_TEMP_DIRECTORY..."
-git clone https://github.com/owncast/owncast 2> /dev/null
+git clone https://github.com/p2x3yz/owncast 2> /dev/null
 cd owncast
 
 echo "Changing to branch: $GIT_BRANCH"
@@ -71,7 +71,7 @@ build() {
 
   pushd dist/${NAME} >> /dev/null
 
-  CGO_ENABLED=1 ~/go/bin/xgo -go latest --branch ${GIT_BRANCH} -ldflags "-s -w -X github.com/owncast/owncast/config.GitCommit=${GIT_COMMIT} -X github.com/owncast/owncast/config.BuildVersion=${VERSION} -X github.com/owncast/owncast/config.BuildPlatform=${NAME}" -tags enable_updates -targets "${OS}/${ARCH}" github.com/owncast/owncast
+  CGO_ENABLED=1 ~/go/bin/xgo -go latest --branch ${GIT_BRANCH} -ldflags "-s -w -X github.com/p2x3yz/owncast/config.GitCommit=${GIT_COMMIT} -X github.com/p2x3yz/owncast/config.BuildVersion=${VERSION} -X github.com/p2x3yz/owncast/config.BuildPlatform=${NAME}" -tags enable_updates -targets "${OS}/${ARCH}" github.com/p2x3yz/owncast
   mv owncast-*-${ARCH} owncast
 
   zip -r -q -8 ../owncast-$VERSION-$NAME.zip .
@@ -98,7 +98,7 @@ git tag -a "v${VERSION}" -m "Release build v${VERSION}"
 
 # On macOS open the Github page for new releases so they can be uploaded
 if test -f "/usr/bin/open"; then
-  open "https://github.com/owncast/owncast/releases/new"
+  open "https://github.com/p2x3yz/owncast/releases/new"
   open dist
 fi
 

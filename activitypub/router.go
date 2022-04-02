@@ -3,8 +3,8 @@ package activitypub
 import (
 	"net/http"
 
-	"github.com/owncast/owncast/activitypub/controllers"
-	"github.com/owncast/owncast/router/middleware"
+	"github.com/p2x3yz/owncast/activitypub/controllers"
+	"github.com/p2x3yz/owncast/router/middleware"
 )
 
 // StartRouter will start the federation specific http router.

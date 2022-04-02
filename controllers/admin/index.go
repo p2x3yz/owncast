@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/owncast/owncast/router/middleware"
-	"github.com/owncast/owncast/static"
+	"github.com/p2x3yz/owncast/router/middleware"
+	"github.com/p2x3yz/owncast/static"
 	log "github.com/sirupsen/logrus"
 )
 

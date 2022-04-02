@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/models"
 )
 
 // Defaults will hold default configuration values.
@@ -58,7 +58,7 @@ func GetDefaults() Defaults {
 		WebServerPort:  8080,
 		WebServerIP:    "0.0.0.0",
 		RTMPServerPort: 1935,
-		StreamKey:      "abc1234",
+		StreamKey:      "bilby baxter",
 
 		ChatEstablishedUserModeTimeDuration: time.Minute * 15,
 

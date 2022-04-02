@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/amalfra/etag"
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/utils"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/utils"
 )
 
 // DisableCache writes the disable cache header on the responses.

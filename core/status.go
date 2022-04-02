@@ -1,9 +1,9 @@
 package core
 
 import (
-	"github.com/owncast/owncast/config"
-	"github.com/owncast/owncast/core/data"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/config"
+	"github.com/p2x3yz/owncast/core/data"
+	"github.com/p2x3yz/owncast/models"
 )
 
 // GetStatus gets the status of the system.

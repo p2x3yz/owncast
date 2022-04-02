@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/owncast/owncast/core"
-	"github.com/owncast/owncast/models"
+	"github.com/p2x3yz/owncast/core"
+	"github.com/p2x3yz/owncast/models"
 )
 
 // Ping is fired by a client to show they are still an active viewer.
