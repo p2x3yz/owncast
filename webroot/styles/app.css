@@ -8,7 +8,7 @@ May have overrides for other components with own stylesheets.
   --header-height: 3.5em;
   --right-col-width: 24em;
   --video-container-height: calc((9 / 16) * 100vw);
-  --header-bg-color: rgba(20, 0, 40, 1);
+  --header-bg-color: rgb(58, 59, 66);
   --user-image-width: 10em;
 
   --novideo-container-height: 16em;
@@ -24,6 +24,9 @@ May have overrides for other components with own stylesheets.
 html {
   font-size: 14px;
   scrollbar-width: none;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
 }
 
 #loading-logo {

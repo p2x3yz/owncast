@@ -4,8 +4,6 @@
   height: var(--user-image-width);
   max-height: var(--user-image-width);
   background-size: cover;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  overflow: hidden;
 }
 
 #stars {
