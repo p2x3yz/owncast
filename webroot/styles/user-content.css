@@ -1,10 +1,12 @@
+.user-image {
+  z-index: 2;
+}
 .user-content .user-image {
   min-width: var(--user-image-width);
   width: var(--user-image-width);
   height: var(--user-image-width);
   max-height: var(--user-image-width);
   background-size: cover;
-  z-index: 2;
 }
 
 /* .user-social-item {

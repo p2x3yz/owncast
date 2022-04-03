@@ -274,7 +274,7 @@ export default class VideoOnly extends Component {
         <section
           id="stream-info"
           aria-label="Stream status"
-          class="flex flex-row justify-between font-mono py-2 px-4 bg-gray-900 text-indigo-200 shadow-md border-b border-gray-100 border-solid"
+          class="flex flex-row justify-between font-mono py-2 px-4 bg-gray-900 text-indigo-200 border-gray-100 border-solid"
         >
           <span class="text-xs">${streamStatusMessage}</span>
           <span id="stream-viewer-count" class="text-xs text-right"

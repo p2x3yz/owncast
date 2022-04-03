@@ -139,6 +139,10 @@ header {
 
 #app-container .custom-thumbnail-image {
   transition: opacity 2s;
+} 
+
+.border-t {
+  border-top-width: 1px;
 }
 
 /* *********** overrides when chat is off ***************************** */

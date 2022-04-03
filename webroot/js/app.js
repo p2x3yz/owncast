@@ -985,7 +985,7 @@ export default class App extends Component {
           <section
             id="stream-info"
             aria-label="Stream status"
-            class="flex text-center flex-row justify-between font-mono py-2 px-4 bg-gray-900 text-indigo-200 shadow-md border-b border-gray-100 border-solid"
+            class="flex text-center flex-row justify-between font-mono py-2 px-4 text-indigo-200 border-t border-gray-100 border-solid"
           >
             <span class="text-xs">${streamStatusMessage}</span>
             <span id="stream-viewer-count" class="text-xs text-right"
