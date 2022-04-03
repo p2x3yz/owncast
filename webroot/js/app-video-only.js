@@ -265,7 +265,6 @@ export default class VideoOnly extends Component {
             class="video-js vjs-big-play-centered display-block w-full h-full"
             id="video"
             preload="auto"
-            autoplay="autoplay"
             controls
             playsinline
           ></video>

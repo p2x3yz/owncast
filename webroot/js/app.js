@@ -975,8 +975,6 @@ export default class App extends Component {
             <video
               class="video-js vjs-big-play-centered display-block w-full h-full"
               id="video"
-              autoplay="autoplay"
-              muted="muted"
               preload="auto"
               controls
               playsinline
@@ -1000,6 +998,15 @@ export default class App extends Component {
           id="user-content"
           aria-label="Owncast server information"
           class="p-2"
+        >
+        <div 
+          id="stars"
+        >
+        <div 
+          id="stars2"
+        >
+        <div 
+          id="stars3"
         >
           ${externalActionButtons && html`${externalActionButtons}`}
 
