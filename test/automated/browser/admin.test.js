@@ -1,6 +1,6 @@
 const listenForErrors = require('./lib/errors.js').listenForErrors;
 const ADMIN_USERNAME = 'admin';
-const ADMIN_PASSWORD = 'abc123';
+const ADMIN_PASSWORD = 'bilby baxter';
 
 describe('Admin page', () => {
   beforeAll(async () => {

@@ -999,26 +999,20 @@ export default class App extends Component {
           aria-label="Owncast server information"
           class="p-2"
         >
-        <div 
-          id="stars"
-        >
-        <div 
-          id="stars2"
-        >
-        <div 
-          id="stars3"
-        >
           ${externalActionButtons && html`${externalActionButtons}`}
 
           <div class="user-content flex flex-row p-8">
-            <div>
+            <div
               id="stars"
+            >
             </div>
-            <div>
+            <div
               id="stars2"
+            >
             </div>
-            <div>
+            <div
               id="stars3"
+            >
             </div>
             <div
               class="user-logo-icons flex flex-col items-center justify-start mr-8"

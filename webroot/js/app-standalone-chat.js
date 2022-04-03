@@ -30,7 +30,7 @@ export default class StandaloneChat extends Component {
       websocket: null,
       canChat: false,
       chatEnabled: true, // always true for standalone chat
-      chatInputEnabled: false, // chat input box state
+      chatInputEnabled: true, // chat input box state
       accessToken: null,
       username: null,
       isRegistering: false,
@@ -150,7 +150,7 @@ export default class StandaloneChat extends Component {
       const remainingChatTime =
         TIMER_DISABLE_CHAT_AFTER_OFFLINE -
         (Date.now() - new Date(lastDisconnectTime));
-      const countdown = remainingChatTime < 0 ? 0 : remainingChatTime;
+      const countdown = remainingChatTime < 0 ? 1000 : remainingChatTime;
       if (countdown > 0) {
         this.setState({
           chatInputEnabled: true,

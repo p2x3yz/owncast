@@ -11,8 +11,8 @@ func Test_secretMatch(t *testing.T) {
 	}{
 		{"positive", "abc", "/live/abc", true},
 		{"negative", "abc", "/live/def", false},
-		{"positive with numbers", "abc123", "/live/abc123", true},
-		{"negative with numbers", "abc123", "/live/def456", false},
+		{"positive with numbers", "bilby baxter", "/live/bilby baxter", true},
+		{"negative with numbers", "bilby baxter", "/live/def456", false},
 		{"positive with url chars", "one/two/three", "/live/one/two/three", true},
 		{"negative with url chars", "one/two/three", "/live/four/five/six", false},
 		{"check the entire secret", "three", "/live/one/two/three", false},
