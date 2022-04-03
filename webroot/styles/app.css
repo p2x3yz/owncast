@@ -13,7 +13,7 @@ May have overrides for other components with own stylesheets.
 
   --novideo-container-height: 16em;
 
-  --owncast-purple: rgba(120, 113, 255, 1);
+  --owncast-purple: rgb(255, 0, 179);
 }
 
 .no-video,
@@ -118,6 +118,7 @@ header {
   margin-top: var(--header-height);
   position: relative;
   width: 100%;
+  z-index: 2;
 
   min-height: 480px;
   max-height: calc(100vh - var(--header-height) - 3rem);
