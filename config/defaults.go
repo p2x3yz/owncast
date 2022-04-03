@@ -42,7 +42,7 @@ func GetDefaults() Defaults {
 		Title:                "My Owncast Server",
 		Summary:              "This is brief summary of whom you are or what your stream is. You can edit this description in the admin.",
 		ServerWelcomeMessage: "",
-		Logo:                 "logo.svg",
+		Logo:                 "logo.png",
 		Tags: []string{
 			"owncast",
 			"streaming",

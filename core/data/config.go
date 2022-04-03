@@ -583,13 +583,13 @@ func VerifySettings() error {
 
 	logoPath := GetLogoPath()
 	if !utils.DoesFileExists(filepath.Join(config.DataDirectory, logoPath)) {
-		defaultLogo := filepath.Join(config.WebRoot, "img/logo.svg")
+		defaultLogo := filepath.Join(config.WebRoot, "img/logo.png")
 		log.Traceln(logoPath, "not found in the data directory. copying a default logo.")
-		if err := utils.Copy(defaultLogo, filepath.Join(config.DataDirectory, "logo.svg")); err != nil {
+		if err := utils.Copy(defaultLogo, filepath.Join(config.DataDirectory, "logo.png")); err != nil {
 			log.Errorln("error copying default logo: ", err)
 		}
-		if err := SetLogoPath("logo.svg"); err != nil {
-			log.Errorln("unable to set default logo to logo.svg", err)
+		if err := SetLogoPath("logo.png"); err != nil {
+			log.Errorln("unable to set default logo to logo.png", err)
 		}
 	}
 

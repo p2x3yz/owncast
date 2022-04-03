@@ -28,7 +28,7 @@ export const TIMER_STREAM_DURATION_COUNTER = 1000;
 export const TEMP_IMAGE =
   'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 
-export const OWNCAST_LOGO_LOCAL = '/img/logo.svg';
+export const OWNCAST_LOGO_LOCAL = '/img/logo.png';
 
 export const MESSAGE_OFFLINE = 'Stream is offline.';
 export const MESSAGE_ONLINE = 'Stream is online.';
