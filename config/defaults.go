@@ -53,7 +53,7 @@ func GetDefaults() Defaults {
 		DatabaseFilePath: "data/owncast.db",
 
 		YPEnabled: false,
-		YPServer:  "https://directory.owncast.online",
+		YPServer:  "https://directory.ign.online",
 
 		WebServerPort:  8080,
 		WebServerIP:    "0.0.0.0",
@@ -71,7 +71,7 @@ func GetDefaults() Defaults {
 			},
 		},
 
-		FederationUsername:      "streamer",
+		FederationUsername:      "DeuceRichards",
 		FederationGoLiveMessage: "Geosyncing Orbital Bombardment",
 	}
 }

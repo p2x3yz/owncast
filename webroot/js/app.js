@@ -1011,6 +1011,15 @@ export default class App extends Component {
           ${externalActionButtons && html`${externalActionButtons}`}
 
           <div class="user-content flex flex-row p-8">
+            <div>
+              id="stars"
+            </div>
+            <div>
+              id="stars2"
+            </div>
+            <div>
+              id="stars3"
+            </div>
             <div
               class="user-logo-icons flex flex-col items-center justify-start mr-8"
             >
