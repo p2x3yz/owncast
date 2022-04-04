@@ -1,6 +1,3 @@
-.user-image {
-  z-index: 2;
-}
 .user-content .user-image {
   min-width: var(--user-image-width);
   width: var(--user-image-width);
