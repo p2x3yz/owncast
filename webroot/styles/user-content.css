@@ -4,6 +4,7 @@
   height: var(--user-image-width);
   max-height: var(--user-image-width);
   background-size: cover;
+  z-index: 2;
 }
 
 /* .user-social-item {
