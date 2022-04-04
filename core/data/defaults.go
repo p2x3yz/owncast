@@ -37,9 +37,9 @@ func PopulateDefaults() {
 	_ = SetServerMetadataTags([]string{"IGN", "streaming", "RAWK"})
 	_ = SetServerSummary("Welcome to the Official Galaxy of Intergalactic Shenannigans")
 	_ = SetServerWelcomeMessage("")
-	_ = SetServerName("IGN")
+	_ = SetServerName("Intergalactic Ganymeade Nebula")
 	_ = SetStreamKey(defaults.StreamKey)
-	_ = SetExtraPageBodyContent("This is your page's content that can be edited in the admin.")
+	_ = SetExtraPageBodyContent("Prepare for quick entry followed by forced orbital ejaction")
 	_ = SetFederationGoLiveMessage(defaults.FederationGoLiveMessage)
 	_ = SetSocialHandles([]models.SocialHandle{
 		{
