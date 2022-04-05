@@ -46,7 +46,7 @@ pushd build/javascript >> /dev/null
 npm install --quiet --no-progress
 # Run the tailwind CLI and pipe it to postcss for minification.
 # Save it to a temp directory that we will reference below.
-NODE_ENV="production" ./node_modules/.bin/tailwind build | ./node_modules/.bin/postcss >  "${TMPDIR}tailwind.min.css"
+NODE_ENV="production" ./node_modules/.bin/tailwind build | ./node_modules/.bin/postcss >  "${BUILD_TEMP_DIRECTORY}tailwind.min.css"
 popd
 
 mkdir -p dist
@@ -66,7 +66,7 @@ build() {
   cp -R webroot/ dist/${NAME}/webroot/
 
   # Copy the production pruned+minified css to the build's directory.
-  cp "${TMPDIR}tailwind.min.css" ./dist/${NAME}/webroot/js/web_modules/tailwindcss/dist/tailwind.min.css
+  cp "${BUILD_TEMP_DIRECTORY}tailwind.min.css" ./dist/${NAME}/webroot/js/web_modules/tailwindcss/dist/tailwind.min.css
   cp README.md dist/${NAME}
 
   pushd dist/${NAME} >> /dev/null
@@ -74,10 +74,10 @@ build() {
   CGO_ENABLED=1 ~/go/bin/xgo -go latest --branch ${GIT_BRANCH} -ldflags "-s -w -X github.com/p2x3yz/owncast/config.GitCommit=${GIT_COMMIT} -X github.com/p2x3yz/owncast/config.BuildVersion=${VERSION} -X github.com/p2x3yz/owncast/config.BuildPlatform=${NAME}" -tags enable_updates -targets "${OS}/${ARCH}" github.com/p2x3yz/owncast
   mv owncast-*-${ARCH} owncast
 
-  zip -r -q -8 ../owncast-$VERSION-$NAME.zip .
+  #zip -r -q -8 ../owncast-$VERSION-$NAME.zip .
   popd >> /dev/null
 
-  rm -rf dist/${NAME}/
+  #rm -rf dist/${NAME}/
 }
 
 for i in "${!DISTRO[@]}"; do
@@ -111,8 +111,8 @@ echo "Building Docker image ${DOCKER_IMAGE}..."
 cd $(git rev-parse --show-toplevel)
 
 # Docker build
-docker build --build-arg NAME=docker --build-arg VERSION=${VERSION} --build-arg GIT_COMMIT=$GIT_COMMIT -t gabekangas/owncast:$VERSION -t gabekangas/owncast:latest -t owncast .
+docker build --build-arg NAME=docker --build-arg VERSION=${VERSION} --build-arg GIT_COMMIT=$GIT_COMMIT -t p2x3yz/owncast:$VERSION -t p2x3yz/owncast:latest -t owncast .
 
 # Dockerhub
 # You must be authenticated via `docker login` with your Dockerhub credentials first.
-docker push "gabekangas/owncast:${VERSION}"
+docker push "p2x3yz/owncast:${VERSION}"

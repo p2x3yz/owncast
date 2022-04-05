@@ -1,6 +1,6 @@
 module github.com/p2x3yz/owncast
 
-go 1.17
+go 1.16
 
 require (
 	github.com/amalfra/etag v0.0.0-20190921100247-cafc8de96bc5
@@ -45,6 +45,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/karalabe/xgo v0.0.0-20191115072854-c5ccff8648a7 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
@@ -52,6 +53,7 @@ require (
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
+	src.techknowlogick.com/xgo v1.4.1-0.20220316200431-2a44f0ae5de2 // indirect
 )
 
 require (
